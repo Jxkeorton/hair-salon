@@ -4,12 +4,48 @@
 
 ## Features 
 
+### Features Left to Implement
+#### Navigation Menu
+- Includes links to the Home, Services, Pricelist, and Contact pages, ensuring responsiveness across all devices.
+- Facilitates seamless navigation between site pages on any screen size.
+
+#### Footer
+- Features icons linked to social media platforms, designed to open in new tabs for enhanced user experience.
+- Ensures accessibility for visually impaired users via aria labels, enabling screen reader compatibility.
+- Enables users to connect with relevant social media pages for additional and timely updates beyond the website's content.
+
+#### Home Page
+* Home Page image
+    * An image that captures the essence of the business to instantly inform the user on the focus of the business. 
+
+* Services Section
+    * Brief information about Services provided with a link for the user to follow to the services page.
+    * This information lets the user know what the business/site is about.
+
+#### Services Page
+* Title / Brief description / image
+    * So the user can easily see the page they are visiting
+
+* Service images
+    * Each image will represent a service provided with relevant text below to describe the service
+ 
+* Book Appointment button
+    * To prompt the user to booking an appointment, making it convinient for the user, keeping to the goal of gaining customers for the business.
+ 
+#### Pricelist Page
+* image
+    * Making the page visually appealing.
+
+* Pricelist
+    * A simple pricelist to indicate general costs of services.
+ 
+#### Contact Page
+* Form for a quick method to contact the business owner about enquiries
+* phone number (optional, type=tel)
+* message (required type=textarea)
+
 
 ### Existing Features
-
-
-
-### Features Left to Implement
 
 
 
@@ -29,7 +65,7 @@
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
+This section will describe the process to deploy the project to a hosting platform 
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
   - In the GitHub repository, navigate to the Settings tab 
