@@ -1,6 +1,6 @@
 # Garden Room Hair Salon
 
-Garden room hair salon is a website where users can find out more about a hairdresser and the services they provide. The user will be able to check the availability and book an appointment with the hairdresser.
+Garden room hair salon is a website where users can find out more about a hairdresser and the services they provide. The user will be able to check the availability and book an appointment with the hairdresser through a third party app called timely. 
 
 ## Features 
 
@@ -44,6 +44,13 @@ Garden room hair salon is a website where users can find out more about a hairdr
 * phone number (optional, type=tel)
 * message (required type=textarea)
 
+#### Favicon
+- A site-wide favicon featuring a relevant icon or logo will be integrated.
+- Enhances user experience by providing a visual identifier in the browser's tab header, facilitating easy recognition, especially when multiple tabs are open.
+
+#### 404 Page
+- A custom 404 page will be implemented to display when users encounter a broken link.
+- Offers seamless navigation back to the main website, eliminating reliance on the browser's back button, in case of encountering a broken link or missing page.
 
 ### Existing Features
 
