@@ -1,6 +1,6 @@
 # Garden Room Hair Salon
 
-
+Garden room hair salon is a website where users can find out more about a hairdresser and the services they provide. The user will be able to check the availability and book an appointment with the hairdresser.
 
 ## Features 
 
