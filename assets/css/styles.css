@@ -18,3 +18,16 @@ body {
     color: #fafafa;
     font-family: 'Montserrat', sans-serif;
 }
+
+/* Header */
+
+/* Main Content */
+main {
+    /* Enlarge main element to push footer down*/
+    flex: 1 0 auto;
+    /* Enable flex properties for child elements */
+    display: flex;
+    flex-direction: column;
+}
+
+/* Footer */
