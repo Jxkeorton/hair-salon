@@ -32,6 +32,7 @@ header {
 
 #logo {
     height: 70px;
+    margin-top: 10px;
 }
 
 header a {
@@ -92,9 +93,9 @@ nav {
 }
 
 .nav-toggle-label {
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: #4B3621;
-    margin-top: 15px;
+    margin-top: 22px;
 }
 
 /* Main Content */
@@ -105,7 +106,57 @@ main {
     /* Enable flex properties for child elements */
     display: flex;
     flex-direction: column;
-    margin-top: 73px;
+    margin-top: 83px;
 }
 
 /* Footer */
+
+
+/* Media query: tablets and larger (768px and up) */
+
+@media screen and (min-width: 768px) {
+    /* Header */
+    header {
+        justify-content: space-between;
+        padding: 0;
+    }
+
+    nav {
+        display: flex;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #menu {
+        display: flex;
+        padding-right: 5%;
+    }
+
+    #menu > li {
+        padding-left: .5rem;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+
+    .book-appointment-button {
+        min-width: 150px;
+        margin-right: 20px;
+    }
+
+    #logo {
+        margin-left: 20px;
+        height: 8rem;
+    }
+
+    /* Main Content */
+    main {
+        margin-top: 138px;
+    }
+}
+
