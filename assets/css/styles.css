@@ -26,11 +26,12 @@ header {
     position: fixed;
     z-index: 99;
     width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
 
 #logo {
-    height: 60px;
-    margin-bottom: .5em;
+    height: 70px;
 }
 
 header a {
@@ -71,12 +72,29 @@ header a {
 /* Navbar dropdown toggle */
 nav {
     position: absolute;
-    padding-left: 1em;
+    padding-top: 1em;
+    text-align: center;
     background-color: #EBD8D0;
     left: 0;
     width: 100%;
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
     display: none;
+    top: 100%;
+}
+
+/* Nav toggle */
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
+    color: #4B3621;
+    margin-top: 15px;
 }
 
 /* Main Content */
