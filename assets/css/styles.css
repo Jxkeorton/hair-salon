@@ -190,12 +190,25 @@ footer {
 
     #logo {
         margin-left: 20px;
-        height: 8rem;
+        height: 6rem;
     }
 
     /* Main Content */
     main {
         margin-top: 138px;
+    }
+
+    /* Footer */
+    #social-networks i {
+        font-size: 160%;
+    }
+
+    #footer-logo {
+        height: 80px;
+    }
+
+    .address {
+        font-size: .7rem;
     }
 }
 
@@ -203,8 +216,15 @@ footer {
 /* Media query: laptops and desktops (992px and up) */
 
 @media screen and (min-width: 992px) {
+
+    /* Header */
     #menu a:hover {
         border-bottom: 1px solid #3a3a3a;
+    }
+
+    /* Footer */
+    footer {
+        padding-bottom: 2%;
     }
 }
 
