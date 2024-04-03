@@ -70,26 +70,23 @@
     <!-- Main Content -->
     <main>
       <div class="contact-container">
-        <div>
-          <h1>Contact Us</h1>
+        <div class="contact-form-container">
           <form action="https://formspree.io/f/xeqyrwbq" method="POST">
-            <label>
-              Your Email:
-              <input type="email" name="email" />
-            </label>
-            <label>
-              Your Message:
-              <textarea name="message"></textarea>
-            </label>
-            <label>
-              Your Phone Number:
-              <input type="tel" name="phone" />
-            </label>
+            <h1>Contact Us</h1>
+            <label for="email">Email:</label>
+            <input type="email" name="email"/>
+            <br>
+            <label for="phone">Phone:</label>
+            <input type="tel" name="phone" />
+            <br>
+            <label for="message">Message</label><br>
+            <textarea name="message"></textarea>
+            <br>
             <button type="submit">Send</button>
           </form>
         </div>
 
-        <div>
+        <div class="contact-img-container">
           <img src="" alt="Contact Page Image" />
         </div>
       </div>
