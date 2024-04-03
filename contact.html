@@ -1,84 +1,150 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- meta tags for search engines -->
-    <meta name="description" content="Welcome to The Garden Room, your premier destination for hair styling and beauty services in Whetstone, Leicestershire. Our expert stylists offer a wide range of services, including cuts, coloring, treatments, and more, ensuring you leave feeling confident and rejuvenated. Book your appointment today!">
-    <meta name="keywords" content="hair salon, beauty salon, Whetstone, Leicestershire, haircuts, hair styling, coloring, treatments, hair care, The Garden Room">
+    <meta
+      name="description"
+      content="Welcome to The Garden Room, your premier destination for hair styling and beauty services in Whetstone, Leicestershire. Our expert stylists offer a wide range of services, including cuts, coloring, treatments, and more, ensuring you leave feeling confident and rejuvenated. Book your appointment today!"
+    />
+    <meta
+      name="keywords"
+      content="hair salon, beauty salon, Whetstone, Leicestershire, haircuts, hair styling, coloring, treatments, hair care, The Garden Room"
+    />
     <title>Contact - Garden Room</title>
     <!-- Favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/favicon-16x16.png">
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./assets/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./assets/favicon/favicon-16x16.png"
+    />
     <!-- Stylesheet -->
-    <link rel="stylesheet" href="./assets/css/styles.css" >
-</head>
-<body>
-    
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+  </head>
+  <body>
     <!-- Header -->
     <header>
-        <a href="./index.html">
-            <img id="logo" src="./assets/images/garden-room-logo.webp" alt="Garden Room Hair Salon Logo">
-        </a>
-        <input type="checkbox" id="nav-toggle" name="nav-toggle" >
-        <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i></label>
-        <nav class="fade-in">
-            <ul id="menu">
-                <li>
-                    <a href="./index.html" class="active">Home</a>
-                </li>
-                <li>
-                    <a href="./services.html">Services</a>
-                </li>
-                <li>
-                    <a href="./pricelist.html">Pricelist</a>
-                </li>
-                <li>
-                    <a href="./contact.html">Contact</a>
-                </li>               
-            </ul>
-            <button class="generic-button">Book Appointment</button>
-        </nav>
+      <a href="./index.html">
+        <img
+          id="logo"
+          src="./assets/images/garden-room-logo.webp"
+          alt="Garden Room Hair Salon Logo"
+        />
+      </a>
+      <input type="checkbox" id="nav-toggle" name="nav-toggle" />
+      <label for="nav-toggle" class="nav-toggle-label"
+        ><i class="fa-solid fa-bars"></i
+      ></label>
+      <nav class="fade-in">
+        <ul id="menu">
+          <li>
+            <a href="./index.html" class="active">Home</a>
+          </li>
+          <li>
+            <a href="./services.html">Services</a>
+          </li>
+          <li>
+            <a href="./pricelist.html">Pricelist</a>
+          </li>
+          <li>
+            <a href="./contact.html">Contact</a>
+          </li>
+        </ul>
+        <button class="generic-button">Book Appointment</button>
+      </nav>
     </header>
 
     <!-- Main Content -->
-    <main>Contact</main>
+    <main>
+      <div class="contact-container">
+        <div>
+          <h1>Contact Us</h1>
+          <form action="https://formspree.io/f/xeqyrwbq" method="POST">
+            <label>
+              Your Email:
+              <input type="email" name="email" />
+            </label>
+            <label>
+              Your Message:
+              <textarea name="message"></textarea>
+            </label>
+            <label>
+              Your Phone Number:
+              <input type="tel" name="phone" />
+            </label>
+            <button type="submit">Send</button>
+          </form>
+        </div>
+
+        <div>
+          <img src="" alt="Contact Page Image" />
+        </div>
+      </div>
+    </main>
 
     <!-- Footer -->
     <footer>
+      <!-- address -->
+      <div class="address-container">
+        <p class="address">3 Reeves Close</p>
+        <p class="address">Whetstone</p>
+        <p class="address">Leicestershire</p>
+        <p class="address">LE8 6YQ</p>
+      </div>
 
-        <!-- address -->
-        <div class="address-container">
-            <p class="address">3 Reeves Close</p>
-            <p class="address">Whetstone</p>
-            <p class="address">Leicestershire</p>
-            <p class="address">LE8 6YQ</p>
-        </div>
+      <!-- Icons -->
+      <div class="social-networks-container">
+        <ul id="social-networks">
+          <li>
+            <a
+              href="https://www.facebook.com/"
+              target="_blank"
+              rel="noopener"
+              aria-label="Visit our facebook page, opens in a new tab"
+            >
+              <i class="fa-brands fa-facebook"></i>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.instagram.com/"
+              target="_blank"
+              rel="noopener"
+              aria-label="Visit our instagram page, opens in a new tab"
+            >
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
 
-        <!-- Icons -->
-        <div class="social-networks-container">
-            <ul id="social-networks">
-                <li>
-                    <a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Visit our facebook page, opens in a new tab">
-                        <i class="fa-brands fa-facebook"></i>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Visit our instagram page, opens in a new tab">
-                        <i class="fa-brands fa-instagram"></i>
-                    </a>
-                </li>
-            </ul>
-        </div>
-        
-        <!-- Logo -->
-        <div>
-            <img id="footer-logo" src="./assets/images/garden-room-logo.webp" alt="Garden Room Hair Salon Logo">
-        </div>
+      <!-- Logo -->
+      <div>
+        <img
+          id="footer-logo"
+          src="./assets/images/garden-room-logo.webp"
+          alt="Garden Room Hair Salon Logo"
+        />
+      </div>
     </footer>
 
     <!-- Font awesome Kit -->
-    <script src="https://kit.fontawesome.com/7dc7d0366e.js" crossorigin="anonymous"></script>
-</body>
+    <script
+      src="https://kit.fontawesome.com/7dc7d0366e.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
