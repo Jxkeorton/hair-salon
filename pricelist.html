@@ -19,32 +19,64 @@
     <!-- Header -->
     <header>
         <a href="./index.html">
-            <img id="logo" src="./assets/images/Garden Room Logo.webp" alt="Garden Room Hair Salon Logo">
+            <img id="logo" src="./assets/images/garden-room-logo.webp" alt="Garden Room Hair Salon Logo">
         </a>
-        <nav>
-            <ul>
+        <input type="checkbox" id="nav-toggle" name="nav-toggle" >
+        <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i></label>
+        <nav class="fade-in">
+            <ul id="menu">
                 <li>
-                    <a href="./index.html">Home</a>
+                    <a href="./index.html" class="active">Home</a>
                 </li>
                 <li>
                     <a href="./services.html">Services</a>
                 </li>
                 <li>
-                    <a href="./pricelist.html" class="active">Pricelist</a>
+                    <a href="./pricelist.html">Pricelist</a>
                 </li>
                 <li>
                     <a href="./contact.html">Contact</a>
                 </li>               
             </ul>
+            <button class="book-appointment-button">Book Appointment</button>
         </nav>
-        <button>Book Appointment</button>
     </header>
 
     <!-- Main Content -->
     <main>Pricelist</main>
 
     <!-- Footer -->
-    <footer></footer>
+    <footer>
+
+        <!-- address -->
+        <div class="address-container">
+            <p class="address">3 Reeves Close</p>
+            <p class="address">Whetstone</p>
+            <p class="address">Leicestershire</p>
+            <p class="address">LE8 6YQ</p>
+        </div>
+
+        <!-- Icons -->
+        <div class="social-networks-container">
+            <ul id="social-networks">
+                <li>
+                    <a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Visit our facebook page, opens in a new tab">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Visit our instagram page, opens in a new tab">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        
+        <!-- Logo -->
+        <div>
+            <img id="footer-logo" src="./assets/images/garden-room-logo.webp" alt="Garden Room Hair Salon Logo">
+        </div>
+    </footer>
 
     <!-- Font awesome Kit -->
     <script src="https://kit.fontawesome.com/7dc7d0366e.js" crossorigin="anonymous"></script>
