@@ -54,7 +54,7 @@ header a {
     border-bottom: 1px solid #3a3a3a;
 }
 
-.book-appointment-button {
+.generic-button {
     background-color: #d3ab9e;
     color: #4B3621;
     padding: .5em;
@@ -67,7 +67,7 @@ header a {
     margin-bottom: 1rem;
 }
 
-.book-appointment-button:hover {
+.generic-button:hover {
     background-color: #f0f0f0; /* Hover background color */
 }
 
@@ -114,6 +114,25 @@ main {
     display: flex;
     flex-direction: column;
     margin-top: 83px;
+}
+
+/* 404 */
+.error-page-container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.error-page-container h2 {
+    font-size: 1.2rem;
+}
+
+.error-page-link {
+    text-decoration: none;
 }
 
 /* Footer */
@@ -202,6 +221,11 @@ footer {
     /* Main Content */
     main {
         margin-top: 138px;
+    }
+
+    /* 404.html */
+    .error-page-container h2 {
+        font-size: 2rem;
     }
 
     /* Footer */
