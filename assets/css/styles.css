@@ -15,6 +15,7 @@ body {
     display: flex;
     flex-direction: column;
     /* Generic project styles */
+    background-color: #EBD8D0;
     color: #000000;
     font-family: 'Montserrat', sans-serif;
 }
@@ -110,6 +111,44 @@ main {
 }
 
 /* Footer */
+footer {
+    background-color: #EBD8D0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 5%;
+}
+
+.address-container {
+    padding-left: 5%;
+}
+
+.address {
+    font-size: .5rem;
+}
+
+.social-networks-container {
+    width: 30%;
+}
+
+#social-networks {
+    text-align: center;
+    list-style-type: none;
+    display: flex;
+    padding: 20px 0;
+    justify-content: space-evenly;
+}
+
+#social-networks i {
+    font-size: 100%;
+    padding: 5%;
+    color: #3a3a3a;
+}
+
+#footer-logo {
+    height: 60px;
+    padding: 5%;
+}
 
 
 /* Media query: tablets and larger (768px and up) */
