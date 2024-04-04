@@ -34,6 +34,7 @@ header {
 #logo {
     height: 70px;
     margin-top: 10px;
+    margin-bottom: 1rem;
 }
 
 header a {
@@ -120,6 +121,8 @@ main {
 .contact-div {
     height: 100vh;
     width: 100vw;
+    margin-top: 50px;
+    margin-bottom: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -128,8 +131,7 @@ main {
 .contact-container {
     background-color: #FDE9EA;
     width: 80%;
-    height: 80%;
-    margin-top: 60px;
+    height: 100%;
     padding-top: 50px;
     display: flex;
     flex-direction: column-reverse;
