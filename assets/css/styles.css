@@ -284,6 +284,16 @@ main {
     align-items: center;
 }
 
+.service-container-text {
+    margin-top: 20px;
+}
+
+.service-container-text h2 {
+    font-size: 1.7rem;
+    font-weight: lighter;
+    font-family: 'great vibes', sans-serif;
+}
+
 .service-image {
     width: 260px;
     height: 260px;
