@@ -226,7 +226,6 @@ main {
     background-color: #FDE9EA;
     width: 80%;
     height: 100%;
-    padding-top: 50px;
     display: flex;
     flex-direction: column-reverse;
     justify-content: center;
@@ -269,8 +268,16 @@ main {
 
 .contact-img-container {
     flex: 1;
+    width: 100%;
     display: flex;
     justify-content: center;
+    align-items: center;
+}
+
+.contact-img {
+    background: url("../images/temporaryimage.jpg") no-repeat center / cover;
+    height: 80%;
+    width: 80%;
 }
 
 /* 404 Page */
@@ -460,6 +467,15 @@ footer {
     .contact-container {
         flex-direction: row;
         padding-left: 50px;
+    }
+
+    .contact-img-container {
+        height: 100%;
+        width: 100%;
+    }
+
+    .contact-img {
+        width: 90%;
     }
 
     /* Footer */
