@@ -211,6 +211,49 @@ main {
     background: url("../images/services-4.webp") no-repeat center / cover;
 }
 
+/* Services Page */
+.services-hero-section {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #EBD8D0;
+    margin-bottom: 30px;
+}
+
+.services-hero-container {
+    width: 100%;
+    margin: 0 10px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+}
+
+.service-hero-img {
+    width: 100%;
+    height: 500px;
+    background: url("../images/temporaryimage.jpg") no-repeat center / cover;
+}
+
+.service-hero-text {
+    width: 90%;
+    min-height: 200px;
+    background-color: #FDE9EA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+    padding: 30px;
+    margin-bottom: -100px;
+    z-index: 10;
+}
+
+.service-hero-text h1 {
+    font-weight: 200;
+}
+
 /* Pricelist Page */
 
 .pricelist-page-container {
@@ -295,6 +338,7 @@ main {
     font-size: 1.3rem;
     padding-bottom: 30px;
     text-align: center;
+    font-weight: 200;
 }
 
 .contact-form {
