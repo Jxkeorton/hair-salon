@@ -69,25 +69,29 @@
 
     <!-- Main Content -->
     <main>
-      <div class="contact-container">
-        <div class="contact-form-container">
-          <form action="https://formspree.io/f/xeqyrwbq" method="POST">
-            <h1>Contact Us</h1>
-            <label for="email">Email:</label>
-            <input type="email" name="email"/>
-            <br>
-            <label for="phone">Phone:</label>
-            <input type="tel" name="phone" />
-            <br>
-            <label for="message">Message</label><br>
-            <textarea name="message"></textarea>
-            <br>
-            <button type="submit">Send</button>
-          </form>
-        </div>
+      <div class="contact-div">
+        <div class="contact-container">
 
-        <div class="contact-img-container">
-          <img src="" alt="Contact Page Image" />
+          <!-- Contact Form  -->
+          <div class="contact-form-container">
+            <form action="https://formspree.io/f/xeqyrwbq" method="POST" class="contact-form">
+              <h1>Contact Us</h1>
+              <label for="email">Email</label>
+              <input type="email" name="email" class="text-input"/>
+              <label for="phone">Phone</label>
+              <input type="tel" name="phone" pattern="[0-9]*"  class="text-input"/>
+              <label for="message">Message</label>
+              <textarea name="message" class="textarea"></textarea>
+              <br>
+              <button type="submit" class="generic-button">Submit</button>
+            </form>
+          </div>
+          
+          <!-- Contact image -->
+          <div class="contact-img-container">
+            <img src="" alt="Contact Page Image" />
+          </div>
+
         </div>
       </div>
     </main>
