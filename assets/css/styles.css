@@ -118,7 +118,7 @@ main {
 }
 
 /* Home Page */
-section {
+.home-top-section {
     width: 100%;
     display: flex;
     align-items: center;
@@ -164,6 +164,31 @@ section {
     margin: 20px 0;
     font-weight: 500;
     line-height: 25px;
+}
+
+.home-bottom-section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.home-services-img {
+    width: 300px;
+    height: 300px;
+}
+
+#home-services-1 {
+    background: url("../images/services-1.webp") no-repeat center / cover;
+}
+#home-services-2 {
+    background: url("../images/services-2.webp") no-repeat center / cover;
+
+}
+#home-services-3 {
+    background: url("../images/services-3.webp") no-repeat center / cover;
+}
+#home-services-4 {
+    background: url("../images/services-4.webp") no-repeat center / cover;
+
 }
 
 /* Contact Page */
@@ -371,7 +396,6 @@ footer {
     }
 
 }
-
 
 /* Media query: laptops and desktops (992px and up) */
 
