@@ -94,11 +94,6 @@ I may use multiple styles of the Montserrat font such as bold, semi-bold or ital
 - HTML
   
 - CSS
-  
-
-### Unfixed Bugs
-
-
 
 ## Deployment
 
@@ -117,9 +112,8 @@ The live link can be found here - https://jxkeorton.github.io/hair-salon/
 ### WEB CIFAR (youtube channel)
 Overlapping Layout With CSS Flex Box - https://www.youtube.com/watch?v=_HTL0XSMcRQ
 
-### Content 
+### Animista (nav element fade in animation)
+https://animista.net/
 
-
-### Media
 
 
