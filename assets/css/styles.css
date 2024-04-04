@@ -167,13 +167,34 @@ main {
 }
 
 .home-bottom-section {
+    margin: 0 10px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.home-bottom-section a {
+    position: absolute;
+    width: 150px;
+    border: 1px solid black;
+    text-align: center;
+    text-decoration: none;
+}
+
+.images-div {
+    width: 90%;
+    height: 300px;
     display: flex;
     flex-wrap: wrap;
 }
 
 .home-services-img {
-    width: 300px;
-    height: 300px;
+    width: 50%;
+    height: 50%;
 }
 
 #home-services-1 {
@@ -188,7 +209,6 @@ main {
 }
 #home-services-4 {
     background: url("../images/services-4.webp") no-repeat center / cover;
-
 }
 
 /* Contact Page */
