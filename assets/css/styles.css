@@ -284,6 +284,11 @@ footer {
         margin-top: 138px;
     }
 
+    /* Contact form */
+    .contact-form-container h1 {
+        font-size: 2rem;
+    }
+
     /* 404.html */
     .error-page-container h2 {
         font-size: 2rem;
@@ -301,6 +306,7 @@ footer {
     .address {
         font-size: .7rem;
     }
+
 }
 
 
@@ -312,6 +318,13 @@ footer {
     #menu a:hover {
         border-bottom: 1px solid #3a3a3a;
     }
+
+    /* Contact page */
+    .contact-container {
+        flex-direction: row;
+        padding-left: 50px;
+    }
+
 
     /* Footer */
     footer {
