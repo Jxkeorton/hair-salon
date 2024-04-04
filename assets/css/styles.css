@@ -261,6 +261,12 @@ main {
     justify-content: center;
     align-items: center;
     position: relative;
+    padding-bottom: 50px;
+}
+
+.services-button {
+    position: absolute;
+    bottom: 20px;
 }
 
 .services-image-container {
