@@ -211,6 +211,59 @@ main {
     background: url("../images/services-4.webp") no-repeat center / cover;
 }
 
+/* Pricelist Page */
+
+.pricelist-page-container {
+    margin-top: 40px;
+    height: 70vh;
+    width: 100%;
+}
+
+.pricelist-page-container h1 {
+    text-align: center;
+    color: #4B3621;
+    font-weight: 200;
+}
+
+.pricelist {
+    margin: 0 10px;
+    padding: 10px;
+    display: flex;
+    background-color: #FDE9EA;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.list {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.pricelist-left {
+    text-align: left;
+}
+
+.pricelist-right {
+    text-align: right;
+}
+
+.pricelist-img-container {
+    height: 100%;
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pricelist-img {
+    background: url("../images/temporaryimage.jpg") no-repeat center / cover;
+    height: 90%;
+    width: 100%;
+}
+
 /* Contact Page */
 .contact-div {
     height: 100vh;
