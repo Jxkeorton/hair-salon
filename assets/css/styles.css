@@ -563,6 +563,34 @@ footer {
         font-size: larger;
     }
 
+    /* Services Page */
+    .services-hero-container {
+        flex-direction: row;
+    }
+
+    .service-hero-img {
+        height: 200px;
+    }
+
+    .service-hero-text {
+        margin-left: -100px;
+    }
+
+    .services-bottom-section {
+        margin-top: 80px;
+    }
+
+    .services-image-container {
+        flex-direction: row;
+        width: 100%;
+        max-width: 1000px;
+        gap: 0;
+    }
+
+    .service-image {
+        width: 90%;
+    }
+
     /* Pricelist Page */
     .pricelist {
         position: relative;
@@ -639,6 +667,12 @@ footer {
     .home-services-img {
         width: 25%;
         height: 100%;
+    }
+
+    /* Services Page */
+    .services-hero-section {
+        max-width: 1000px;
+        margin: 0 auto;
     }
 
     /* Pricelist Page */
