@@ -391,6 +391,18 @@ footer {
         z-index: 10;
     }
 
+    .images-div {
+        height: 600px;
+    }
+
+    .home-bottom-section a {
+        width: 50%;
+        height: 3rem;
+        text-align: center;
+        margin: 0;
+        font-size: larger;
+    }
+
     /* Contact form */
 
     .contact-form-container h1 {
@@ -433,6 +445,15 @@ footer {
 
     .hero-left {
         width: 80%;
+    }
+
+    .images-div {
+        height: 300px;
+    }
+
+    .home-services-img {
+        width: 25%;
+        height: 100%;
     }
 
     /* Contact page */
