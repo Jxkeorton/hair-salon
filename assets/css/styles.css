@@ -51,6 +51,10 @@ header a {
     border-bottom: 1px solid #3a3a3a;
 }
 
+#menu > li {
+    margin-bottom: 1rem;
+}
+
 .generic-button {
     background-color: #d3ab9e;
     color: #4B3621;
@@ -422,16 +426,17 @@ main {
 
 .contact-img-container {
     flex: 1;
+    height: auto;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.contact-img {
-    background: url("../images/landscape-salon.webp") no-repeat center / cover;
-    height: 80%;
+.contact-img-container > img {
+    height: 350px;
     width: 80%;
+    object-fit: contain;
 }
 
 /* 404 Page */
@@ -520,6 +525,7 @@ footer {
 
     #menu > li {
         padding-left: .5rem;
+        margin-bottom: 0;
     }
 
     .nav-toggle-label {
@@ -701,8 +707,8 @@ footer {
         width: 100%;
     }
 
-    .contact-img {
-        width: 90%;
+    .contact-img-container > img {
+        height: 80%;
     }
 
     /* Footer */
