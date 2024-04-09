@@ -33,6 +33,8 @@
     />
     <!-- Stylesheet -->
     <link rel="stylesheet" href="./assets/css/styles.css" />
+    <!-- Booking button script -->
+    <script id="timelyScript" src="//book.gettimely.com/widget/book-button-v1.5.js"></script>
   </head>
   <body>
     <!-- Header -->
@@ -63,7 +65,7 @@
             <a href="./contact.html" class="active">Contact</a>
           </li>
         </ul>
-        <button class="generic-button">Book Appointment</button>
+        <script>new timelyButton("gardenroomhairsalon", {"style":"dark"});</script>
       </nav>
     </header>
 
