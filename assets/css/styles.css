@@ -47,10 +47,6 @@ header a {
     list-style-type: none;
 }
 
-#menu > li {
-    margin-bottom: 1em;
-}
-
 .active {
     border-bottom: 1px solid #3a3a3a;
 }
@@ -264,14 +260,8 @@ main {
     padding-bottom: 50px;
 }
 
-.services-button {
-    position: absolute;
-    bottom: 20px;
-}
-
 .services-image-container {
     height: 100%;
-    width: 200px;
     padding: 30px 0;
     background-color: #FDE9EA;
     display: flex;
@@ -279,6 +269,11 @@ main {
     justify-content: center;
     align-items: center;
     gap: 20px;
+}
+
+.services-image-container > a {
+    position: absolute;
+    bottom: 20px;
 }
 
 .service-container {
@@ -591,6 +586,14 @@ footer {
         width: 100%;
         max-width: 1000px;
         gap: 0;
+    }
+
+    .services-image-container  p {
+        padding: 10px;
+    }
+
+    .services-image-container  h2 {
+        padding-left: 10px;
     }
 
     .service-image {
