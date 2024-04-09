@@ -13,21 +13,21 @@ Garden room hair salon is a website where users can find out more about a hairdr
 
 ### Balsamiq Templates
 #### Home
-![Home Page](./assets/images/readme-images/home%20-%20wireframe.png)
+![Home Page](./docs/images/home%20-%20wireframe.png)
 
 #### Services
-![Services Page](./assets/images/readme-images/services-wireframe.png)
+![Services Page](./docs/images/services-wireframe.png)
 
 #### Pricelist
-![Pricelist Page](./assets/images/readme-images/pricelist-wireframe.png)
+![Pricelist Page](./docs/images/pricelist-wireframe.png)
 
 #### Contact
-![Contact Page](./assets/images/readme-images/contact-wireframe.png)
+![Contact Page](./docs/images/contact-wireframe.png)
 
 ### Color Palette
 Used as inspiration for the websites design.
 
-![Color palette](./assets/images/readme-images/color-palette.png)
+![Color palette](./docs/images/color-palette.png)
 
 ### Fonts 
 I will be using google fonts for this project. I have chosen to focus on using only two fonts that compliment each other nicely.
