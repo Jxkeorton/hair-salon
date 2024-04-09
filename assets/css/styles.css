@@ -56,12 +56,11 @@ header a {
 }
 
 .generic-button {
-    background-color: #d3ab9e;
-    color: #4B3621;
+    background-color: #39464E;
+    color: #ffffff;
     padding: .5em;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
-    border-radius: 7px;
     border: 0px;
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
     transition: background-color 0.3s ease;
@@ -540,6 +539,10 @@ footer {
     #logo {
         margin-left: 20px;
         height: 6rem;
+    }
+    
+    .generic-button {
+        margin-bottom: 0;
     }
 
     /* Main Content */
