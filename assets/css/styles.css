@@ -139,7 +139,7 @@ main {
 .hero-left {
     width: 100%;
     height: 500px;
-    background: url("../images/temporaryimage.jpg") no-repeat center / cover;
+    background: url("../images/the-salon.webp") no-repeat center / cover;
 }
 
 .hero-right {
@@ -233,7 +233,7 @@ main {
 .service-hero-img {
     width: 100%;
     height: 500px;
-    background: url("../images/temporaryimage.jpg") no-repeat center / cover;
+    background: url("../images/the-salon.webp") no-repeat center / cover;
 }
 
 .service-hero-text {
@@ -364,7 +364,7 @@ main {
 }
 
 .pricelist-img {
-    background: url("../images/temporaryimage.jpg") no-repeat center / cover;
+    background: url("../images/services-3.webp") no-repeat center / cover;
     height: 90%;
     width: 100%;
 }
@@ -434,7 +434,7 @@ main {
 }
 
 .contact-img {
-    background: url("../images/temporaryimage.jpg") no-repeat center / cover;
+    background: url("../images/landscape-salon.webp") no-repeat center / cover;
     height: 80%;
     width: 80%;
 }
