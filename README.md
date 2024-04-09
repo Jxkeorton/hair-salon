@@ -75,8 +75,8 @@ I may use multiple styles of the Montserrat font such as bold, semi-bold or ital
  
 ### Contact Page
 * Form for a quick method to contact the business owner about enquiries
-* phone number (optional, type=tel)
-* message (required type=textarea)
+* phone number (required, type=tel)
+* message (optional type=textarea)
 
 ### Favicon
 - A site-wide favicon featuring a relevant icon or logo will be integrated.
