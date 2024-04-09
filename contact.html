@@ -76,7 +76,7 @@
 
           <!-- Contact Form  -->
           <div class="contact-form-container">
-            <form action="https://formspree.io/f/xeqyrwbq" method="POST" class="contact-form">
+            <form action="thankyou.html" method="GET" class="contact-form">
               <h1>Contact Us</h1>
               <label for="email">Email</label>
               <input type="email" name="email" class="text-input" required/>
@@ -84,6 +84,7 @@
               <input type="tel" name="phone" pattern="[0-9]*"  class="text-input" required/>
               <label for="message">Message</label>
               <textarea name="message" class="textarea"></textarea>
+              <input type="hidden" name="_next" value="thankyou.html">
               <br>
               <button type="submit" class="generic-button">Submit</button>
             </form>
