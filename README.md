@@ -45,10 +45,14 @@ I may use multiple styles of the Montserrat font such as bold, semi-bold or ital
 - Includes links to the Home, Services, Pricelist, and Contact pages, ensuring responsiveness across all devices.
 - Facilitates seamless navigation between site pages on any screen size.
 
+![Nav Bar](./docs/images/nav-bar.png)
+
 ### Footer
 - Features icons linked to social media platforms, designed to open in new tabs for enhanced user experience.
 - Ensures accessibility for visually impaired users via aria labels, enabling screen reader compatibility.
 - Enables users to connect with relevant social media pages for additional and timely updates beyond the website's content.
+
+![Footer](./docs/images/footer.png)
 
 ### Home Page
 * Home Page image
@@ -57,6 +61,8 @@ I may use multiple styles of the Montserrat font such as bold, semi-bold or ital
 * Services Section
     * Brief information about Services provided with a link for the user to follow to the services page.
     * This information lets the user know what the business/site is about.
+
+![Home Page](./docs/images/home-page.png)
 
 ### Services Page
 * Title / Brief description / image
@@ -67,6 +73,9 @@ I may use multiple styles of the Montserrat font such as bold, semi-bold or ital
  
 * Book Appointment button
     * To prompt the user to booking an appointment, making it convinient for the user, keeping to the goal of gaining customers for the business.
+
+![Services](./docs/images/services-page.png)
+
  
 ### Pricelist Page
 * image
@@ -74,11 +83,15 @@ I may use multiple styles of the Montserrat font such as bold, semi-bold or ital
 
 * Pricelist
     * A simple pricelist to indicate general costs of services.
+
+![Pricelist](./docs/images/priceslist-page.png)
  
 ### Contact Page
 * Form for a quick method to contact the business owner about enquiries
 * phone number (required, type=tel)
 * message (optional type=textarea)
+
+![Contact Page](./docs/images/contact-page.png)
 
 ### Favicon
 - A site-wide favicon featuring a relevant icon or logo will be integrated.
@@ -88,8 +101,12 @@ I may use multiple styles of the Montserrat font such as bold, semi-bold or ital
 - A custom 404 page will be implemented to display when users encounter a broken link.
 - Offers seamless navigation back to the main website, eliminating reliance on the browser's back button, in case of encountering a broken link or missing page.
 
+![404 page](./docs/images/404-page.png)
+
 ### Thankyou Page 
 - The thankyou page has been created to provide feedback to the user once they have submitted the contact form. This will help provide a good user experience.
+
+![Thankyou Page](./docs/images/thankyou-page.png)
 
 ## Testing 
 
@@ -113,6 +130,11 @@ The website should display responsiveness across all screen sizes without any pi
 The website performed as expected.
 
 Additionally, the website was tested on IphoneX and no responsiveness issues were detected.
+
+### Accessibility 
+### Lighthouse 
+### Functional Testing
+### Validators
 
 ### Validator Testing 
 
