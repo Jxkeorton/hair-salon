@@ -88,8 +88,31 @@ I may use multiple styles of the Montserrat font such as bold, semi-bold or ital
 - A custom 404 page will be implemented to display when users encounter a broken link.
 - Offers seamless navigation back to the main website, eliminating reliance on the browser's back button, in case of encountering a broken link or missing page.
 
+### Thankyou Page 
+- The thankyou page has been created to provide feedback to the user once they have submitted the contact form. This will help provide a good user experience.
+
 ## Testing 
 
+### Responsiveness
+All pages underwent testing to verify their responsiveness across various screen sizes, starting from 320px and above, adhering to the [WCAG 2.1 Reflow criteria](https://www.w3.org/WAI/WCAG21/Understanding/reflow.html) for responsive design. This testing was conducted on Chrome, Edge, Firefox, and Opera browsers.
+
+#### Testing Procedure:
+
+1. Open the browser and navigate to [Garden Room Hair Salon](https://jxkeorton.github.io/hair-salon/).
+2. Open the developer tools by right-clicking and selecting inspect.
+3. Set the view to responsive mode and decrease the width to 320px.
+4. Adjust the zoom level to 50%.
+5. Click and drag the responsive window to its maximum width.
+
+#### Expected Outcome:
+
+The website should display responsiveness across all screen sizes without any pixelation or stretching of images. Horizontal scrolling should be absent, and no elements should overlap.
+
+#### Observed Outcome:
+
+The website performed as expected.
+
+Additionally, the website was tested on IphoneX and no responsiveness issues were detected.
 
 ### Validator Testing 
 
@@ -99,15 +122,35 @@ I may use multiple styles of the Montserrat font such as bold, semi-bold or ital
 
 ## Deployment
 
-This section will describe the process to deploy the project to a hosting platform 
+### Version Control
+The site was created using the Visual Studio code editor and pushed to github to the remote repository ‘hair-salon’.
 
-- The site was deployed to GitHub pages. The steps to deploy are as follows: 
-  - In the GitHub repository, navigate to the Settings tab 
-  - From the source section drop-down menu, select the Master Branch
-  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+The following git commands were used throughout development to push code to the remote repo:
 
+git add <file> - This command was used to add the file(s) to the staging area before they are committed.
+
+git commit -m “commit message” - This command was used to commit changes to the local repository queue ready for the final step.
+
+git push - This command was used to push all committed code to the remote repository on github.
+
+### Deployment to Github Pages
+The site was deployed to GitHub pages. The steps to deploy are as follows:
+In the GitHub repository, navigate to the Settings tab
+From the menu on left select 'Pages'
+From the source section drop-down menu, select the Branch: main
+Click 'Save'
+A live link will be displayed in a green banner when published successfully.
 The live link can be found here - https://jxkeorton.github.io/hair-salon/
 
+### Clone the Repository Code Locally
+Navigate to the GitHub Repository you want to clone to use locally:
+
+Click on the code drop down button
+Click on HTTPS
+Copy the repository link to the clipboard
+Open your IDE of choice (git must be installed for the next steps)
+Type git clone copied-git-url into the IDE terminal
+The project will now of been cloned on your local machine for use.
 
 ## Credits 
 
