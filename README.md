@@ -1,5 +1,7 @@
 # Garden Room Hair Salon
 
+![Am I Responsive](./docs/images/amiresponsive.png)
+
 Garden room hair salon is a website where users can find out more about a hairdresser and the services they provide. The user will be able to check the availability and book an appointment with the hairdresser through a third party app called timely.
 
 ## Client Goals
