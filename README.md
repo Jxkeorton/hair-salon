@@ -132,11 +132,31 @@ The website performed as expected.
 Additionally, the website was tested on IphoneX and no responsiveness issues were detected.
 
 ### Accessibility 
-### Lighthouse 
-### Functional Testing
-### Validators
 
-### Validator Testing 
+Throughout the development process and final testing of the deployed website, the [Wave](https://wave.webaim.org/) Accessibility tool was employed to ensure comprehensive accessibility testing.
+
+The testing primarily focused on confirming adherence to the following criteria:
+
+- All forms include associated labels or aria-labels, ensuring that screen readers announce these labels to users who navigate to form inputs.
+- Color contrasts meet the minimum ratio specified in the WCAG 2.1 Contrast Guidelines.
+- Heading levels are appropriately structured to avoid skipping or missing levels, effectively conveying the importance of content to end users.
+- All content is enclosed within landmarks, facilitating ease of navigation for assistive technology users by organizing content into distinct page regions.
+- Non-textual content is accompanied by alternative text or titles to provide descriptions that can be read by screen readers.
+- The HTML page includes a lang attribute to specify the language used.
+- Aria properties are implemented correctly to enhance accessibility features.
+- Compliance with [WCAG 2.1](https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html) coding best practices is ensured.
+
+
+
+### Lighthouse 
+![Home Lighthouse](./docs/images/home-lighthouse.png)
+![Services Lighthouse](./docs/images/services-lighthouse.png)
+![Pricelist Lighthouse](./docs/images/pricelist-lighthouse.png)
+![Contact Lighthouse](./docs/images/contact-lighthouse.png)
+
+### Functional Testing
+
+### Validators
 
 - HTML
   
