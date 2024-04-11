@@ -133,7 +133,7 @@ Additionally, the website was tested on IphoneX and no responsiveness issues wer
 
 ### Accessibility 
 
-Throughout the development process and final testing of the deployed website, the [Wave](https://wave.webaim.org/) Accessibility tool was employed to ensure comprehensive accessibility testing.
+Throughout final testing of the deployed website, the [Wave](https://wave.webaim.org/) Accessibility tool was employed to ensure comprehensive accessibility testing.
 
 The testing primarily focused on confirming adherence to the following criteria:
 
@@ -146,7 +146,9 @@ The testing primarily focused on confirming adherence to the following criteria:
 - Aria properties are implemented correctly to enhance accessibility features.
 - Compliance with [WCAG 2.1](https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html) coding best practices is ensured.
 
-
+#### Findings with Wave
+- Form inputs were not correctly linked to the relevant labels, this was corrected by adding the id attribute with a relevant value to the input elements.
+- Timely buttons were importing images without alt attributes. So i changed all buttons to include a link instead of using the script element with a link to their javascript.
 
 ### Lighthouse 
 ![Home Lighthouse](./docs/images/home-lighthouse.png)

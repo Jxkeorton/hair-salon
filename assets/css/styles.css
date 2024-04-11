@@ -571,7 +571,10 @@ footer {
         height: 3rem;
         text-align: center;
         margin: 0;
-        font-size: larger;
+    }
+
+    .home-bottom-section h2 {
+        font-size: 2rem;
     }
 
     /* Services Page */
