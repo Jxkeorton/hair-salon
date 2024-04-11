@@ -61,7 +61,8 @@ header a {
     color: #ffffff;
     padding: .5em;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
+    font-weight: 450;
+    font-size: smaller;
     border: 0px;
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
     transition: background-color 0.3s ease;
@@ -70,6 +71,7 @@ header a {
 
 .generic-button:hover {
     background-color: #f0f0f0; /* Hover background color */
+    color: #000000;
 }
 
 /* Navbar dropdown toggle */
