@@ -59,14 +59,18 @@ header a {
 .generic-button {
     background-color: #39464E;
     color: #ffffff;
-    padding: .5em;
     font-family: 'Montserrat', sans-serif;
     font-weight: 450;
     font-size: smaller;
-    border: 0px;
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
     transition: background-color 0.3s ease;
     margin-bottom: 1rem;
+    display: inline-block;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
 }
 
 .generic-button:hover {
@@ -342,17 +346,21 @@ main {
     height: 100%;
 }
 
+.pricelist-button {
+    margin-top: 20px;
+}
+
 .list {
     width: 100%;
     margin-bottom: 20px;
 }
 
-.pricelist-left {
-    text-align: left;
+.pricelist-list {
+    text-align: center;
 }
 
-.pricelist-right {
-    text-align: right;
+.pricelist-list h1 {
+    margin-bottom: 20px;
 }
 
 .pricelist-img-container {
@@ -623,21 +631,10 @@ footer {
         height: 70%;
     }
 
-    .pricelist-page-container h1 {
-        position: absolute;
-        top: 100px;
-        left: 17%;
-    }
-
     .pricelist button {
         position: absolute;
         bottom: 100px;
         left: 15%;
-    }
-
-    .pricelist-left,
-    .pricelist-right {
-        text-align: center;
     }
 
     /* Contact form */
