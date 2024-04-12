@@ -199,7 +199,21 @@ The testing primarily focused on confirming adherence to the following criteria:
 ### Validators
 
 - HTML
+* Removed trailing '/' from void elements on contact form page
+* Took the button element out of 'a' elements on multiple pages
+* Changes a section to a div due to lack of a heading within the section
+
+![HTML Validator home](./docs/images/HTML-home-validator.png)
+![HTML Validator services page](./docs/images/HTML-services-validator.png)
+![HTML Validator pricelist page](./docs/images/HTML-pricelist-validator.png)
+![HTML Validator contact page](./docs/images/HTML-contact-validator.png)
+
+
 - CSS
+* No errors were found when passing the style.css file through the [(jigsaw) validator](https://jigsaw.w3.org/css-validator/)
+
+![CSS validator](./docs/images/CSS-validator.png)
+
 
 ## Deployment
 
