@@ -107,8 +107,15 @@ I may use multiple styles of the Montserrat font such as bold, semi-bold or ital
 - email (required, type=email)
 - phone number (required, type=tel)
 - message (optional type=textarea)
+- Once the form is submitted correctly the thankyou page will appear as shown below.
 
 ![Contact Page](./docs/images/contact-page.png)
+
+### Thankyou Page
+
+- The thankyou page has been created to provide feedback to the user once they have submitted the contact form. This will help provide a good user experience.
+
+![Thankyou Page](./docs/images/thankyou-page.png)
 
 ### Favicon
 
@@ -123,12 +130,6 @@ I may use multiple styles of the Montserrat font such as bold, semi-bold or ital
 - Offers seamless navigation back to the main website, eliminating reliance on the browser's back button, in case of encountering a broken link or missing page.
 
 ![404 page](./docs/images/404-page.png)
-
-### Thankyou Page
-
-- The thankyou page has been created to provide feedback to the user once they have submitted the contact form. This will help provide a good user experience.
-
-![Thankyou Page](./docs/images/thankyou-page.png)
 
 ## Testing
 
@@ -173,6 +174,7 @@ The testing primarily focused on confirming adherence to the following criteria:
 
 - Form inputs were not correctly linked to the relevant labels, this was corrected by adding the id attribute with a relevant value to the input elements.
 - Timely buttons were importing images without alt attributes. So i changed all buttons to include a link instead of using the script element with a link to their javascript.
+- There are redundant link warnings but this is due to the fact that two of the same link are on the same page, this is intentional and provides a better user experience, therefore the links will be left alone.
 
 ### Lighthouse
 
@@ -203,16 +205,16 @@ The testing primarily focused on confirming adherence to the following criteria:
 * Took the button element out of 'a' elements on multiple pages
 * Changes a section to a div due to lack of a heading within the section
 
-![HTML Validator home](./docs/images/HTML-home-validator.png)
-![HTML Validator services page](./docs/images/HTML-services-validator.png)
-![HTML Validator pricelist page](./docs/images/HTML-pricelist-validator.png)
-![HTML Validator contact page](./docs/images/HTML-contact-validator.png)
+![HTML Validator home](./docs/images/html-home-validator.png)
+![HTML Validator services page](./docs/images/html-services-validator.png)
+![HTML Validator pricelist page](./docs/images/html-pricelist-validator.png)
+![HTML Validator contact page](./docs/images/html-contact-validator.png)
 
 
 - CSS
 * No errors were found when passing the style.css file through the [(jigsaw) validator](https://jigsaw.w3.org/css-validator/)
 
-![CSS validator](./docs/images/CSS-validator.png)
+![CSS validator](./docs/images/css-validator.png)
 
 
 ## Deployment
@@ -232,12 +234,12 @@ git push - This command was used to push all committed code to the remote reposi
 ### Deployment to Github Pages
 
 The site was deployed to GitHub pages. The steps to deploy are as follows:
-In the GitHub repository, navigate to the Settings tab
-From the menu on left select 'Pages'
-From the source section drop-down menu, select the Branch: main
+* In the GitHub repository, navigate to the Settings tab
+* From the menu on left select 'Pages'
+* From the source section drop-down menu, select the Branch: main
 Click 'Save'
-A live link will be displayed in a green banner when published successfully.
-The live link can be found here - https://jxkeorton.github.io/hair-salon/
+* A live link will be displayed in a green banner when published successfully.
+* The live link can be found here - https://jxkeorton.github.io/hair-salon/
 
 ### Clone the Repository Code Locally
 
