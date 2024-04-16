@@ -1,4 +1,3 @@
-/* Google fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
@@ -9,18 +8,15 @@
     box-sizing: border-box;
 }
 
-/* Generic styles */
 body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    /* Generic project styles */
     background-color: #EBD8D0;
     color: #000000;
     font-family: 'Montserrat', sans-serif;
 }
 
-/* Header */
 header {
     background-color: #EBD8D0;
     padding: 0 1rem;
@@ -88,7 +84,6 @@ header a {
     color: #000000;
 }
 
-/* Navbar dropdown toggle */
 nav {
     position: absolute;
     padding-top: 1em;
@@ -101,7 +96,6 @@ nav {
     top: 100%;
 }
 
-/* Nav toggle */
 #nav-toggle:checked~nav {
     display: block;
 }
@@ -116,24 +110,19 @@ nav {
     margin-top: 22px;
 }
 
-/* Animation for nav toggle */
 .fade-in {
 	-webkit-animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 	        animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }
 
-/* Main Content */
 main {
     background-color: #EBD8D0;
-    /* Enlarge main element to push footer down*/
     flex: 1 0 auto;
-    /* Enable flex properties for child elements */
     display: flex;
     flex-direction: column;
     margin-top: 83px;
 }
 
-/* Home Page */
 .home-top-section {
     width: 100%;
     display: flex;
@@ -227,7 +216,6 @@ main {
     background: url("../images/services-4.webp") no-repeat center / cover;
 }
 
-/* Services Page */
 .services-hero-section {
     width: 100%;
     display: flex;
@@ -331,7 +319,6 @@ main {
     background: url("../images/services-3.webp") no-repeat center / cover;
 }
 
-/* Pricelist Page */
 
 .pricelist-page-container {
     margin-top: 40px;
@@ -388,7 +375,6 @@ main {
     width: 100%;
 }
 
-/* Contact Page */
 .contact-div {
     height: 100vh;
     width: 100vw;
@@ -459,7 +445,6 @@ main {
     object-fit: contain;
 }
 
-/* 404 Page */
 .error-page-container {
     height: 100vh;
     width: 100vw;
@@ -478,7 +463,6 @@ main {
     text-decoration: none;
 }
 
-/* Footer */
 footer {
     background-color: #EBD8D0;
     display: flex;
@@ -519,10 +503,8 @@ footer {
 }
 
 
-/* Media query: tablets and larger (768px and up) */
 
 @media screen and (min-width: 768px) {
-    /* Header */
     header {
         justify-content: space-between;
         padding: 0;
@@ -566,12 +548,10 @@ footer {
         margin-bottom: 0;
     }
 
-    /* Main Content */
     main {
         margin-top: 138px;
     }
 
-    /* Home Page */
     .hero-container {
         flex-direction: row-reverse;
     }
@@ -597,7 +577,6 @@ footer {
         font-size: 2rem;
     }
 
-    /* Services Page */
     .services-hero-container {
         flex-direction: row;
     }
@@ -633,7 +612,6 @@ footer {
         width: 90%;
     }
 
-    /* Pricelist Page */
     .pricelist {
         position: relative;
         flex-direction: row;
@@ -647,18 +625,15 @@ footer {
         left: 15%;
     }
 
-    /* Contact form */
 
     .contact-form-container h1 {
         font-size: 2rem;
     }
 
-    /* 404.html */
     .error-page-container h2 {
         font-size: 2rem;
     }
 
-    /* Footer */
     #social-networks i {
         font-size: 160%;
     }
@@ -673,16 +648,13 @@ footer {
 
 }
 
-/* Media query: laptops and desktops (992px and up) */
 
 @media screen and (min-width: 992px) {
 
-    /* Header */
     #menu a:hover {
         border-bottom: 1px solid #3a3a3a;
     }
 
-    /* Home Page */
     .hero-container {
         max-width: 1000px;
     }
@@ -700,19 +672,16 @@ footer {
         height: 100%;
     }
 
-    /* Services Page */
     .services-hero-section {
         max-width: 1000px;
         margin: 0 auto;
     }
 
-    /* Pricelist Page */
     .pricelist {
         max-width: 1000px;
         margin: 0 auto;
     }
 
-    /* Contact page */
     .contact-container {
         flex-direction: row;
         padding-left: 50px;
@@ -727,7 +696,6 @@ footer {
         height: 80%;
     }
 
-    /* Footer */
     footer {
         padding-bottom: 2%;
     }
